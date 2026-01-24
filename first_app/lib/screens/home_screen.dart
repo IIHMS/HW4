@@ -28,10 +28,10 @@ class HomeScreen extends StatelessWidget {
           Row(
             children: [
               Padding(
-                padding: EdgeInsetsGeometry.only(top: 12, left: 12),
+                padding: EdgeInsetsGeometry.only(top: 12, left: 15),
                 child: Container(
-                  width: 200,
-                  height: 150,
+                  width: 150,
+                  height: 100,
                   color: const Color.fromARGB(255, 22, 80, 255),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -46,10 +46,10 @@ class HomeScreen extends StatelessWidget {
               ),
 
               Padding(
-                padding: EdgeInsetsGeometry.only(top: 12, left: 12),
+                padding: EdgeInsetsGeometry.only(top: 12, left: 15),
                 child: Container(
-                  width: 200,
-                  height: 150,
+                  width: 150,
+                  height: 100,
                   color: const Color.fromARGB(255, 22, 80, 255),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
